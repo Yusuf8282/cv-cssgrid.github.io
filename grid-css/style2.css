@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #63C8FF;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bilahkiri {
+    background-color: #e8f0fe;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+
+.bilahkiri .foto {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.utama h1 {
+    color: #1a73e8;
+    font-size: 28px;
+}
+
+.utama h2 {
+    margin-top: 20px;
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+.utama table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.utama table th,
+.utama table td {
+    border: 2px solid #C4E1E6;
+    padding: 8px;
+
+}
+
+.utama ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
